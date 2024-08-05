@@ -5,6 +5,7 @@ const app = express();
 app.get("./home", (req, res) => {
   res.json("HELLO everyone");
   res.send("welcome to chai and code ");
+  res.send("welcome to chai and code ");
 });
 
 app.listen(PORT, () => {
